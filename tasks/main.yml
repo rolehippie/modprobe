@@ -1,0 +1,12 @@
+# Standards: 1.2
+---
+- name: Loading defined modules
+  loop: "{{ modprobe_general + modprobe_extra }}"
+  modprobe:
+    name: "{{ item.name | default(item) }}"
+    params: "{{ item.params | default(omit) }}"
+    state: "{{ item.state | default('present') }}"
+  tags:
+    - modprobe
+
+...

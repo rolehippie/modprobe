@@ -1,0 +1,9 @@
+# Standards: 1.2
+---
+# @var modprobe_general:description: List of general modules to load
+modprobe_general: []
+
+# @var modprobe_extra:description: List of extra modules to load
+modprobe_extra: []
+
+...
