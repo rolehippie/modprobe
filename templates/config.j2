@@ -1,0 +1,3 @@
+{% for item in modprobe_general + modprobe_extra %}{% if item.state | default('present') == 'present' %}
+{{ item.name | default(item) }}{{ ' ' + item.params if item.params | default(False) else '' }}
+{% endif %}{% endfor %}
