@@ -1,6 +1,11 @@
 # modprobe
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/modprobe) [![General Workflow](https://github.com/rolehippie/modprobe/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/general.yml) [![Readme Workflow](https://github.com/rolehippie/modprobe/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/readme.yml) [![Galaxy Workflow](https://github.com/rolehippie/modprobe/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/galaxy.yml) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/modprobe)](https://github.com/rolehippie/modprobe/blob/master/LICENSE) [![Ansible Role](https://img.shields.io/ansible/role/51491)](https://galaxy.ansible.com/rolehippie/modprobe)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/modprobe)
+[![General Workflow](https://github.com/rolehippie/modprobe/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/general.yml)
+[![Readme Workflow](https://github.com/rolehippie/modprobe/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/readme.yml)
+[![Galaxy Workflow](https://github.com/rolehippie/modprobe/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/modprobe/actions/workflows/galaxy.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/modprobe)](https://github.com/rolehippie/modprobe/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.modprobe-blue)](https://galaxy.ansible.com/rolehippie/modprobe)
 
 Ansible role to load or unload kernel modules.
 
