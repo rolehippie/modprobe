@@ -19,6 +19,8 @@
 # None
 # @end
 galaxy_info:
+  role_name: modprobe
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to load or unload kernel modules
   license: Apache-2.0
