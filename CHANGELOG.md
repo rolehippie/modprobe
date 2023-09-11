@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/rolehippie/modprobe/compare/v1.0.0...v1.0.1) (2023-09-11)
+
+
+### Bugfixes
+
+* set rolename and namespace within meta config ([62888ad](https://github.com/rolehippie/modprobe/commit/62888ad8c79d84074a9f2f28418c88afb3cb108f))
+
 ## 1.0.0 (2023-01-05)
 
 
