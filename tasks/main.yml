@@ -1,7 +1,7 @@
 ---
 - name: Loading defined modules
   loop: "{{ modprobe_general + modprobe_extra }}"
-  modprobe:
+  community.general.modprobe:
     name: "{{ item.name | default(item) }}"
     params: "{{ item.params | default(omit) }}"
     state: "{{ item.state | default('present') }}"
@@ -9,7 +9,7 @@
     - modprobe
 
 - name: Write modules config
-  template:
+  ansible.builtin.template:
     src: config.j2
     dest: /etc/modules
     owner: root

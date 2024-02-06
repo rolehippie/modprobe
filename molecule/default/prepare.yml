@@ -4,12 +4,20 @@
   gather_facts: False
 
   tasks:
+    - name: Stat apt dir
+      register: aptdir
+      ansible.builtin.stat:
+        path: /var/lib/apt
+
     - name: Wait for aptlock
-      shell: while fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do echo 'Waiting for apt list lock.' && sleep 10; done
+      when: aptdir.stat.exists
       changed_when: False
+      ansible.builtin.shell:
+        cmd: while fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do echo 'Waiting for apt list lock.' && sleep 10; done
 
     - name: Update package cache
-      apt:
+      when: aptdir.stat.exists
+      ansible.builtin.apt:
         update_cache: True
 
 ...
