@@ -1,6 +1,7 @@
-# Standards: 1.2
 ---
-collections: []
+collections:
+  - community.general
+
 roles: []
 
 ...
