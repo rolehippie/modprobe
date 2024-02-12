@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/modprobe/compare/v1.0.1...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([b8c9778](https://github.com/rolehippie/modprobe/commit/b8c97781f2620118e78070c00bfdea7b94b26cfe))
+* used full qualified collection names ([8803063](https://github.com/rolehippie/modprobe/commit/8803063a1920cf99dc8e1a2bd1c84e96ff7ef3e5))
+
 ## [1.0.1](https://github.com/rolehippie/modprobe/compare/v1.0.0...v1.0.1) (2023-09-11)
 
 
