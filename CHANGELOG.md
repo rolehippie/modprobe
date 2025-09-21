@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/modprobe/compare/v2.0.0...v2.1.0) (2025-09-21)
+
+
+### Features
+
+* apply new repo structure and update linting ([ee4abba](https://github.com/rolehippie/modprobe/commit/ee4abbababee859c6cdd95cb06b7143eff8e4546))
+
 ## [2.0.0](https://github.com/rolehippie/modprobe/compare/v1.0.1...v2.0.0) (2024-02-12)
 
 
