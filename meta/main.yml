@@ -15,7 +15,7 @@
 # Building and improving this Ansible role have been sponsored by my current and previous employers like **[Cloudpunks GmbH](https://cloudpunks.de)** and **[Proact Deutschland GmbH](https://www.proact.eu)**.
 # @end
 # @meta dependencies:value: >
-# None
+# [community.general](https://github.com/ansible-collections/community.general)
 # @end
 galaxy_info:
   role_name: modprobe
@@ -29,10 +29,14 @@ galaxy_info:
       versions:
         - focal
         - jammy
+        - noble
   galaxy_tags:
     - kernel
     - modules
 
 dependencies: []
+
+collections:
+  - community.general
 
 ...
