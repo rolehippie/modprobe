@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0](https://github.com/rolehippie/modprobe/compare/v2.1.0...v3.0.0) (2025-11-10)
+
+
+### Features
+
+* **major:** update dependency community.general to v12 ([#27](https://github.com/rolehippie/modprobe/issues/27)) ([54d5ba9](https://github.com/rolehippie/modprobe/commit/54d5ba93dd780c77aa284324035bb65d638872b9))
+
 ## [2.1.0](https://github.com/rolehippie/modprobe/compare/v2.0.0...v2.1.0) (2025-09-21)
 
 
