@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/rolehippie/modprobe/compare/v3.0.0...v3.1.0) (2025-12-08)
+
+
+### Features
+
+* **minor:** update dependency community.general to >=12.1.0,<12.2.0 ([#35](https://github.com/rolehippie/modprobe/issues/35)) ([f7c2302](https://github.com/rolehippie/modprobe/commit/f7c2302a63a4d566c2545dd6c43cfb6bd16b02e0))
+
 ## [3.0.0](https://github.com/rolehippie/modprobe/compare/v2.1.0...v3.0.0) (2025-11-10)
 
 
