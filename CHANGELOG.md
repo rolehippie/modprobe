@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.4.1](https://github.com/rolehippie/modprobe/compare/v3.4.0...v3.4.1) (2026-03-04)
+
+### Bugfixes
+
+* correct fallback for plain array values ([896b0eb](https://github.com/rolehippie/modprobe/commit/896b0eb785a52f50e1bb0b7c140f96249f2b720e))
+
+### Miscellaneous
+
+* replace nixfmt package ([a74bef3](https://github.com/rolehippie/modprobe/commit/a74bef3b3d2ef32f03c9ec5f005dc9000ccd0e89))
+
 ## [3.4.0](https://github.com/rolehippie/modprobe/compare/v3.3.0...v3.4.0) (2026-03-02)
 
 ### Dependencies
