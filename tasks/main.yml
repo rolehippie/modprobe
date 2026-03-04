@@ -2,7 +2,7 @@
 - name: Loading defined modules
   loop: "{{ modprobe_general + modprobe_extra }}"
   community.general.modprobe:
-    name: "{{ omit if item.name is undefined else item.name }}"
+    name: "{{ item.name if item.name is defined else item }}"
     params: "{{ omit if item.params is undefined else item.params }}"
     state: "{{ 'present' if item.state is undefined else item.state }}"
   tags:
