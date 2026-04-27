@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.6.0](https://github.com/rolehippie/modprobe/compare/v3.5.0...v3.6.0) (2026-04-27)
+
+### Dependencies
+
+* **minor:** update dependency community.general to >=12.6.0,<12.7.0 ([#51](https://github.com/rolehippie/modprobe/issues/51)) ([5d578a0](https://github.com/rolehippie/modprobe/commit/5d578a096364cf64d1852e0d8f43fba1199f0463))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([751fc79](https://github.com/rolehippie/modprobe/commit/751fc79e61f8760aed6426351e2ba4151490e184))
+* **flake:** updated lockfile [skip ci] ([fd0bbe5](https://github.com/rolehippie/modprobe/commit/fd0bbe592136c10a61f3ad6dcdc5e5df7b3f0aef))
+* **flake:** updated lockfile [skip ci] ([a371304](https://github.com/rolehippie/modprobe/commit/a371304d5120643c7491440405114b58f8084af1))
+
 ## [3.5.0](https://github.com/rolehippie/modprobe/compare/v3.4.1...v3.5.0) (2026-04-06)
 
 ### Dependencies
