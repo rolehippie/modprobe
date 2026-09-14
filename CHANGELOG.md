@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.7.0](https://github.com/rolehippie/modprobe/compare/v4.6.0...v4.7.0) (2026-09-14)
+
+### Dependencies
+
+* **minor:** update dependency community.general to >=13.4.0,<13.5.0 ([#67](https://github.com/rolehippie/modprobe/issues/67)) ([fc0637b](https://github.com/rolehippie/modprobe/commit/fc0637b64b9a9a89089f742d27f8d759eaad70ab))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#68](https://github.com/rolehippie/modprobe/issues/68)) ([7129f56](https://github.com/rolehippie/modprobe/commit/7129f56e5e488b14868c58588b46ad1aa3286d18))
+* **mise:** update dependency prek to v0.5.3 ([#69](https://github.com/rolehippie/modprobe/issues/69)) ([471ac5a](https://github.com/rolehippie/modprobe/commit/471ac5a075835bf106db0ec76a1ed24d077eebdd))
+
 ## [4.6.0](https://github.com/rolehippie/modprobe/compare/v4.5.1...v4.6.0) (2026-09-07)
 
 ### Features
